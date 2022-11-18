@@ -15,7 +15,7 @@
  	<h1>Ciutats per país</h1>
  
  	<?php
- 		$conn = mysqli_connect('localhost','enric','enric123');
+ 		$conn = mysqli_connect('127.0.0.1','admin','admin123');
  		mysqli_select_db($conn, 'world');
         $pais = $_GET["codi_pais"];
  		$consulta = "SELECT * FROM city WHERE CountryCode='$pais';";

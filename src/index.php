@@ -16,7 +16,7 @@
  
  	<?php
  		# (1.1) Connectem a MySQL (host,usuari,contrassenya)
- 		$conn = mysqli_connect('localhost','enric','enric123');
+ 		$conn = mysqli_connect('127.0.0.1','admin','admin123');
  
  		# (1.2) Triem la base de dades amb la que treballarem
  		mysqli_select_db($conn, 'world');
